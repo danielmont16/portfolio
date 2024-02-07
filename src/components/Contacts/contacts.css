@@ -42,6 +42,7 @@
 }
 
 .submitBtn{
+    color: black;
     background: white;
     border: none;
     border-radius: 0.5rem;
