@@ -1,6 +1,6 @@
 #works{
     margin: 0 auto;
-    min-height: calc(100vh -4rem);
+    min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
     display: flex;
@@ -33,4 +33,12 @@
     width: 20rem;
     margin: 0.5rem;
 
+}
+
+@media screen and (max-width:480px) {
+    .carousel{
+        max-width: 20rem;
+        margin: 3rem auto;
+        }
+    
 }

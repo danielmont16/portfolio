@@ -8,3 +8,11 @@
     font-weight: 300;
     font-size: small;
 }
+
+@media screen and (max-width:480px){
+    .footer{
+        width: 110vw;
+        max-width: 60rem;
+    }
+       
+}

@@ -28,9 +28,9 @@ const Contacts = () => {
             <h1 className='contactPageTitle'>Contact Me</h1>
             <span className='contactDesc'>Feel free to contact me using the form below </span>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                <input type="text" className='name' placeholder='your name' name='from_name'/>
-                <input type="email" className='email' placeholder='your email'name='from_email'/>
-                <textarea className='msg' name='message' rows="5" placeholder='Your message'></textarea>
+                <input type="text" className='name' placeholder='your name' name='from_name' required/>
+                <input type="email" className='email' placeholder='your email'name='from_email' required/>
+                <textarea className='msg' name='message' rows="5" placeholder='Your message' required></textarea>
                 <button type='submit' value="send" className='submitBtn' >Submit</button>
                 <div className='links'>
                     <a href='https://github.com/danielmont16'><img src={gitHubIcon} alt="github icon" className='link'></img></a>
