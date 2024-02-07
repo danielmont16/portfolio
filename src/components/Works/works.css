@@ -1,0 +1,36 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.carousel{
+    max-width: 40rem;
+    margin: 3rem auto;
+
+}
+.worksImg{
+    object-fit: cover;
+    width: 20rem;
+    margin: 0.5rem;
+
+}
