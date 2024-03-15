@@ -28,12 +28,7 @@
     margin: 3rem auto;
 
 }
-.worksImg{
-    object-fit: cover;
-    width: 20rem;
-    margin: 0.5rem;
 
-}
 
 @media screen and (max-width:480px) {
     .carousel{
