@@ -29,6 +29,15 @@
 
 }
 
+.legend>a{
+    color: white;
+}
+
+.legend>a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width:480px) {
     .carousel{
