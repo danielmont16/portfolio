@@ -6,8 +6,9 @@ import SimonGame from "../../visuals/SimonGame.png";
 import WhataFont from "../../visuals/WhataFont.png";
 import Drumkit from "../../visuals/Drum-kit.png";
 import MyfavoriteCandy from "../../visuals/MyfavoriteCandy.png";
-import todoList from "../../visuals/todo-list.png"
-import "../Works/works.css"
+import todoList from "../../visuals/todo-list.png";
+import inventoryApp from "../../visuals/inventoryApp.png";
+import "../Works/works.css";
 
 const Works = () => (
 
@@ -43,6 +44,10 @@ const Works = () => (
             <div>
               <img  alt="To-Do List" src={todoList} />
               <p className="legend"><a href="https://todo-list-a8b81.web.app/">To-do List</a></p>
+            </div>
+            <div>
+              <img  alt="InventoryApp" src={inventoryApp} />
+              <p className="legend"><a href="https://inventorywebapp.onrender.com/">InventoryApp</a></p>
             </div>
 
           </Carousel>
